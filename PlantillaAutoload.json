@@ -1,0 +1,51 @@
+{
+    "name": "jose_rafael/curso-php_datos",
+    "description": "Practica de estudio",
+    "type": "proyect",
+    "keywords": [
+        "_____"
+    ],
+    "autoload": {
+        "psr-4": {
+            "JoseRafael\\CursoPhpDatos\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        
+    },
+    "homepage": "",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/",
+        "source": "https://github.com/"
+    },
+    "funding": [
+        {
+            "type": "opencollective",
+            "url": "https://opencollective.com/yiisoft"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/yiisoft"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+   
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "infection/extension-installer": true,
+            "composer/package-versions-deprecated": true
+        }
+    },
+    "scripts": {
+        "test": "",
+        "test-watch": ""
+    }
+}
